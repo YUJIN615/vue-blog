@@ -27,9 +27,10 @@ export default {
   font-weight: bold;
   margin-bottom: 10px;
   margin-top: 50px;
+  font-size: 1.5rem;
 }
 .main-container p {
   text-align: center;
-  font-size: 24px;    
+  font-size: 1.2rem;    
 }
 </style>

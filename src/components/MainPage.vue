@@ -1,28 +1,34 @@
 <template>
-  <div class="container top-container">
+  <div class="main-container">
+    <main-banner></main-banner>
     <h2>Vue로 만든 블로그입니다.</h2>
     <p>환영합니다.</p>
   </div>
 </template>
 
 <script>
-export default {
+import MainBanner from './MainBannerPage.vue'
 
+export default {
+  name: 'MainBannerPage',
+  components: {
+    MainBanner,
+  }
 }
 </script>
 
 <style>
-.top-container {
+.main-container {
   width: 100%;
-  padding: 80px 0;
   margin-bottom: 50px;
 }
-.top-container h2 {
+.main-container h2 {
   text-align: center;
   font-weight: bold;
   margin-bottom: 10px;
+  margin-top: 50px;
 }
-.top-container p {
+.main-container p {
   text-align: center;
   font-size: 24px;    
 }

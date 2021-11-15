@@ -1,7 +1,7 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+      <router-link class="navbar-brand nav-link" aria-current="page" to="/main">Blog</router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -17,9 +17,6 @@
     </div>
   </div>
 </nav>
-
-  <!-- <router-link to="/list">리스트페이지</router-link>
-  <router-link to="/main">메인페이지</router-link> -->
 
   <router-view :posts="posts"> 
   </router-view>

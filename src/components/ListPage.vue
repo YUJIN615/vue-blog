@@ -1,4 +1,5 @@
 <template>
+  <main-banner></main-banner>
   <div
     class="post-list"
     v-for="(post, i) in posts" :key="i"
@@ -10,8 +11,13 @@
 </template>
 
 <script>
+import MainBanner from './MainBannerPage.vue'
+
 export default {
   name: 'PostList',
+  components: {
+    MainBanner,
+  },
   props: {
     posts: Object,
   }

@@ -18,7 +18,7 @@ export default {
 
 <style scoped>
 .detail-container {
-  padding: 40px 40px;
+  padding: 30px 20px;
 }
 .detail-container .title {
   font-weight: bold;

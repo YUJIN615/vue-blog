@@ -28,7 +28,7 @@ export default {
 .post-list {
   width: 96%;
   margin: 0 auto;
-  padding: 30px 20px;
+  padding: 30px 15px;
   border-bottom: 1px solid #ddd;
   cursor: pointer;
 }

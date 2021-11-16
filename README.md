@@ -1,4 +1,4 @@
 # vue-blog
-Vue로 만든 블로그입니다.
+Vue로 만든 블로그입니다. 아래 주소에서 확인해주세요.<br>
 https://yujin615.github.io/vue-blog/#/main
-위 주소에서 확인해주세요.
+

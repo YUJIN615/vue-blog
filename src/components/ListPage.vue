@@ -3,7 +3,7 @@
   <div
     class="post-list"
     v-for="(post, i) in posts" :key="i"
-    @click="$router.push('/detail/'+i)"
+    @click="$router.push('./detail/'+i)"
   >
     <h5 class="title">{{ posts[i].title }}</h5>
     <p class="date">{{ posts[i].date }}</p>

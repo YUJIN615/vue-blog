@@ -13,7 +13,7 @@ export default {
   width: 100%;
   height: 20vw;
   min-height: 150px;
-  background: #ddd;
+  /* background: #ddd; */
   background: url('../assets/bg2.jpg') center / cover;
 }
 </style>
